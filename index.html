@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li>
+                    <i class="fa fa-star" id="first"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star" id="second"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star" id="third"></i>
+                </li>
+            </ul>
+
+            <span class="moves">0</span> Moves Time:
+            <span class="timer"> 0: 0: 0</span>
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            <li class="card" id="one">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="two">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="three">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="four">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="five">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="six">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="seven">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="eight">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="nine">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="ten">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="eleven">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="twelve">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="thirteen">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="fourteen">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="fifteen">
+                <i class="icon"></i>
+            </li>
+            <li class="card" id="sixteen">
+                <i class="icon"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="endgame">
+        <h1>
+            Congratulations!! You finished the game
+        </h1>
+        <p id="score"></p>
+        <p id="Time"></p>
+        <p>
+            <button class="newGame">New Game</button>
+        </p>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
